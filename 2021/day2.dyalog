@@ -1,4 +1,4 @@
-commands←↓⎕CSV('\W+'⎕R','⊢⊃⎕NGET'/Users/pvob/Study/AdventOfCode2021/2021/day2.input'1)''4
+commands←↓⎕CSV('\W+'⎕R','⊢⊃⎕NGET'day2.input'1)''4
 ⍝ first part
 firstletters←(⊃⊃)¨
 mask←{⍺=firstletters⍵}
